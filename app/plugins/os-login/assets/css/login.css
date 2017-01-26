@@ -1,0 +1,113 @@
+.illustration {
+  position: fixed;
+  margin: 0 auto;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2196F3; }
+  .illustration:after {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: #08528d; }
+
+.i-small {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.i-small {
+  background: url("../img/particules_small.png") repeat 0px 0px;
+  -webkit-animation: dropFlowParticles 27s linear infinite;
+  animation: dropFlowParticles 27s linear infinite; }
+
+@-webkit-keyframes dropFlowParticles {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 0 -413px; } }
+
+@keyframes dropFlowParticles {
+  from {
+    background-position: 0 0; }
+  to {
+    background-position: 0 -413px; } }
+
+.login {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+  .login .login-content {
+    vertical-align: middle;
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    padding: 2% 0;
+    width: 350px;
+    background: #0c7cd5;
+    text-align: center;
+    color: white; }
+    .login .login-content:before {
+      content: '';
+      position: absolute;
+      top: -90px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0px 90px 350px;
+      border-color: transparent transparent #0c7cd5 transparent;
+      z-index: 9; }
+    .login .login-content:after {
+      content: '';
+      position: absolute;
+      bottom: -90px;
+      left: 0;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 90px 350px 0 0px;
+      border-color: #0c7cd5 transparent transparent transparent;
+      z-index: 9; }
+    .login .login-content h1 {
+      padding: 20px 0; }
+    .login .login-content input, .login .login-content label {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      height: 35px;
+      line-height: 35px;
+      text-align: center; }
+    .login .login-content input {
+      margin: 0 auto;
+      border-radius: 0 0 5px 5px;
+      padding-left: 5px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-bottom: 10px; }
+      .login .login-content input:focus {
+        outline: none !important; }
+    .login .login-content label {
+      border-radius: 5px 5px 0 0;
+      background-color: #0960a5; }
+    .login .login-content button {
+      padding: 5px 10px;
+      border-radius: 10px;
+      background: transparent;
+      border: 1px solid white;
+      color: white;
+      font-weight: lighter; }
+      .login .login-content button:hover {
+        background: #2196F3; }
+  .login span {
+    display: inline-block;
+    width: 0;
+    height: 100%;
+    vertical-align: middle; }

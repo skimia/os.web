@@ -1,0 +1,20 @@
+{
+  "name" : "os-core",
+  "type" : "system",
+  "version" : "0.1",
+  "routing" :
+  [{
+      "name" : "os",
+      "url" : "/",
+      "views": {
+        "core" : {
+          "templateUrl" : "/views/layouts/core.html"
+        }
+      },
+      "assets" : [
+        "/assets/css/core.css",
+        "/components/mainBar.js"
+      ]
+  }],
+  "assetsBeforeLoad" : []
+}

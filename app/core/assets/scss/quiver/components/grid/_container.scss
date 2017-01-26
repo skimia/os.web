@@ -1,0 +1,10 @@
+
+@mixin grid($width: $grid-width,$media:$grid-media){
+    width: $width;
+    margin: 0 auto;
+    @include prefixer(box-sizing,border-box);
+    $mediaquery: 'max-width:#{$grid-media - 1}';
+    @include media($mediaquery){
+        width: 100%;
+    }
+}

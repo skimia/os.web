@@ -1,0 +1,25 @@
+
+
+
+@mixin col($columnSpan: auto,$spaceV:none,$spaceH:0) {
+    float: left;
+    padding: 0 5px;
+    @include prefixer(box-sizing,border-box);
+
+    @if ($columnSpan == auto) {
+        width: $columnSpan;
+    }
+    @else if (number == type_of($columnSpan)) and ($spaceV == none) {
+        width: $columnSpan * 100%;
+
+    }@else if($spaceV != none) and (number == type_of($columnSpan)) {
+        $current_width: $columnSpan * 100%;
+        $cur_space: $spaceV + px;
+        width: math($current_width - #{$spaceV + px});
+        margin:(($spaceH/2)+px) (($spaceV/2)+px);
+
+    }
+    @else {
+        @warn('#{$columnSpan} is not valid for column span.');
+    }
+}

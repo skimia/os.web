@@ -1,0 +1,104 @@
+@import 'quiver/quiver';
+@import 'config';
+
+.os.core{
+  .os.mainBar{
+    $length : 45px;
+    &.bar{
+      z-index: 900;
+      position: fixed;
+      width: 100%;
+      height: $length;
+      background: pal('grey','d3');
+      top:0;
+      left: 0;
+      right: 0;
+
+      .homeButton{
+        width: $length;
+        height: $length;
+        float: left;
+        text-align: center;
+        line-height: $length;
+        color:white;
+        background: pal('blue','d1');
+        cursor: pointer;
+        i{
+          line-height: 45px;
+          font-size: 30px;
+        }
+        &:hover{
+          background: pal('blue','d3');
+        }
+      }
+      .navPluginsActive{
+        width: calc(80% - (#{$length} / 2));
+        height: $length;
+        line-height: $length;
+        float: left;
+        li{
+          float: left;
+          height: $length;
+          width: $length;
+          text-align: center;
+          cursor: pointer;
+
+        }
+      }
+      .userFastAction{
+        width: calc(20% - (#{$length} / 2));
+        position: relative;
+        float: left;
+        height: $length;
+        line-height: $length;
+        background: pal('blue','d1');
+        text-align: center;
+        color: white;
+        .userName{
+          font-weight: lighter;
+          cursor: pointer;
+          font-size: 16px;
+          span{
+            font-weight: normal;
+          }
+        }
+        .fastAction{
+          display: none;
+          width: 100%;
+          position: absolute;
+          top: $length;
+          right: 0;
+          background: pal('blue','d2');
+          border-radius: 0 0 0 5px;
+          overflow: hidden;
+          li{
+            height: $length - 10px;
+            line-height: $length - 10px;
+            font-weight: lighter;
+            cursor: pointer;
+            font-size: 14px;
+            position: relative;
+            i{
+              position: absolute;
+              height: $length - 10px;
+              line-height: $length - 10px;
+              top:0;
+              left: 20px;
+            }
+            &:hover{
+              background: pal('blue','d4');
+            }
+          }
+        }
+        &:hover{
+          .fastAction{
+            display: block;
+          }
+        }
+      }
+    }
+
+  }
+
+
+}

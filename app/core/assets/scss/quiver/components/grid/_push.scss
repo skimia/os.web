@@ -1,0 +1,25 @@
+
+  //Grid Offset
+ // @var $columnSpan Number of columns
+
+@mixin offset($columnSpan: 1/$grid-cols-per-row) {
+    margin-left: $columnSpan * 100%;
+}
+
+
+ // Grid Push
+ // @var $columnSpan Number of columns
+
+@mixin push($columnSpan: 1/$grid-cols-per-row) {
+    position: relative;
+    left: $columnSpan * 100%;
+}
+
+
+ // Grid Pull
+ // @var $columnSpan Number of columns
+
+@mixin pull($columnSpan: 1/$grid-cols-per-row) {
+    position: relative;
+    right: $columnSpan * 100%;
+}

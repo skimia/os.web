@@ -1,0 +1,110 @@
+
+
+
+
+
+/**
+ * Row
+ **/
+.row {
+    @include row;
+    box-sizing: border-box;
+   // padding: 10px;
+}
+
+/**
+ * Columns
+ **/
+[class^="col"]{
+    box-sizing: border-box;
+}
+
+// Mobile (ALL)
+.col {
+    @include col;
+}
+
+@for $i from 1 through $grid-cols-per-row {
+    .col-#{$i} {
+        @include col($i/$grid-cols-per-row);
+    }
+}
+
+// Tablets
+.col-t {
+    @include media('tablet'){
+        @include col;
+    }
+}
+
+
+@for $i from 1 through $grid-cols-per-row {
+    @include media('tablet') {
+        .col-t-#{$i} {
+            @include col($i/$grid-cols-per-row);
+        }
+    }
+}
+
+// Desktop
+.col-d {
+    @include media('desktop'){
+        @include col;
+    }
+}
+
+@for $i from 1 through $grid-cols-per-row {
+    @include media('desktop') {
+        .col-d-#{$i} {
+            @include col($i/$grid-cols-per-row);
+        }
+    }
+}
+
+// Desktop
+.col-ld {
+    @include media('large-desktop'){
+        @include col;
+    }
+}
+
+@for $i from 1 through $grid-cols-per-row {
+    @include media('large-desktop') {
+        .col-d-#{$i} {
+            @include col($i/$grid-cols-per-row);
+        }
+    }
+}
+
+/**
+ * Columns offset
+ **/
+@for $i from 1 through $grid-cols-per-row - 1 {
+    .col-offset-#{$i} {
+        @include offset($i / $grid-cols-per-row);
+    }
+}
+
+@for $i from 1 through $grid-cols-per-row - 1 {
+    @include media('tablet') {
+        .col-t-offset-#{$i} {
+            @include offset($i / $grid-cols-per-row);
+        }
+    }
+}
+
+@for $i from 1 through $grid-cols-per-row - 1 {
+    @include media('desktop') {
+        .col-d-offset-#{$i} {
+            @include offset($i / $grid-cols-per-row);
+        }
+    }
+}
+
+@for $i from 1 through $grid-cols-per-row - 1 {
+    @include media('large-desktop') {
+        .col-ld-offset-#{$i} {
+            @include offset($i / $grid-cols-per-row);
+        }
+    }
+}

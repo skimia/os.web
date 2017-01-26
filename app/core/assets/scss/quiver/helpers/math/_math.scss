@@ -1,0 +1,8 @@
+
+@mixin math($property,$value) {
+  @include prefixer($property,calc(#{$value}),val);
+}
+@function math($value) {
+  @return -webkit-calc(#{$value});
+
+}

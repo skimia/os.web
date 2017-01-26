@@ -1,0 +1,22 @@
+{
+  "name" : "os-login",
+  "type" : "system",
+  "version" : "0.1",
+  "routing" :
+  [{
+      "name" : "login",
+      "url" : "/login",
+      "views": {
+        "core" : {
+          "templateUrl" : "/views/layouts/index.html",
+          "controller" : "login_ctrl"
+        }
+      },
+      "assets" : [
+        "/assets/css/login.css",
+        "/controllers/login.js"
+      ]
+  }],
+  "assetsBeforeLoad" : ["/security/url_interceptor.js"],
+  "otherwise" : "/login"
+}
