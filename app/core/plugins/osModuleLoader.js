@@ -9,6 +9,7 @@ os.core.config(function($locationProvider,$stateProvider,$urlRouterProvider){
 
 os.core.run(function($http,$rootScope,$ocLazyLoad,$state,$plugins){
     os.stateProvider = $state;
+
     $plugins.nb('system').then(function(nb){
         console.log(nb);
     });
