@@ -10,7 +10,7 @@
      injector.invoke(test);
     return test();
  };
- os.test = function(name,func){
+ /*os.test = function(name,func){
      //var injector = angular.injector(['ng']);
      console.log(formalParameterList(func));
     // injector.invoke(func);
@@ -36,7 +36,7 @@
          });
      }
      return args;
- }
+ }$*/
 
 
 
