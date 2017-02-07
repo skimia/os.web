@@ -1,4 +1,4 @@
-os.core.factory('$plugins',function($http){
+/*os.core.factory('$plugins',function($http){
     var $plugins = {
         get : function(link){
             var promise = $http.get(link).then(function(source){
@@ -8,4 +8,4 @@ os.core.factory('$plugins',function($http){
         },
     };
     return $plugins;
-});
+});*/
