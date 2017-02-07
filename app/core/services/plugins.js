@@ -6,23 +6,6 @@ os.core.factory('$plugins',function($http){
             });
             return promise;
         },
-        nb : function(type){
-            var promise = $plugins.get('app/plugins/plugins.json').then(function(data){
-                var nb = 0;
-
-                $.each(data,function(key,value){
-                    if(value.type == type){
-                        nb++;
-                    }
-                });
-                return nb;
-            });
-            return promise;
-
-        },
-        load : function(name){
-
-        }
     };
     return $plugins;
 });
