@@ -2,14 +2,12 @@
     {
       "id": 0,
       "name": "os-core",
-      "version" : "0.1",
-      "type" : "system"
+      "version" : "0.1" 
     },
     {
       "id": 1,
       "name": "os-login",
-      "version" : "0.1",
-      "type" : "system"
+      "version" : "0.1"
     }
 
 ]

@@ -7,33 +7,11 @@ os.core.config(function($locationProvider,$stateProvider,$urlRouterProvider){
     
 });
 
-os.core.run(function($http,$rootScope,$ocLazyLoad,$state,$plugins){
+os.core.run(function($http,$rootScope,$ocLazyLoad,$state,){
     os.stateProvider = $state;
-
-    $plugins.nb('system').then(function(nb){
-        console.log(nb);
-    });
-
-    var promise = $http.get('app/plugins/plugins.json').then(function(source){
-        for (plugin in source.data){
-            switch (source.data[plugin].type){
-                case 'core' :
-                    os.pluginsCore.push(source.data[plugin]);
-                    break;
-                case  'system' :
-                    os.pluginsSyst.push(source.data[plugin]);
-                    break;
-                case  'extern' :
-                    os.pluginsExt.push(source.data[plugin]);
-                    break;
-            }
-        }
-        return source.data;
-    });
     promise.then(function(data){
         if (os.pluginsSyst.length){
             var allConfDef = [];
-
             $.each(os.pluginsSyst,function(key,value){
                 $http.get('app/plugins/'+ value.name + '/config.json').then(function(source){
                     allConfDef.push(source.data);
