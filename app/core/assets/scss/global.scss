@@ -50,6 +50,9 @@ $teintesLightReverse : reverse($teintes-light,true);
 
     .#{$colorName}.#{$lightenName}{
         background-color: lighten($color,$percentLighten);
+        &.hoverable:hover{
+          background-color: pal(lighten($color,$percentLighten),'d3');
+        }
     }
 
     $nthChildIndex : $nthChildIndex + 1;
@@ -62,6 +65,9 @@ $teintesLightReverse : reverse($teintes-light,true);
 
   .#{$colorName}{
     background-color: $color;
+    &.hoverable:hover{
+      background-color: pal($color,'d3');
+    }
   }
 
   $nthChildIndex : $nthChildIndex + 1;
@@ -76,6 +82,9 @@ $teintesLightReverse : reverse($teintes-light,true);
 
     .#{$colorName}.#{$darkenName}{
       background-color: darken($color,$percentDarken);
+      &.hoverable:hover{
+        background-color: pal(darken($color,$percentDarken),'d3');
+      }
     }
 
     $nthChildIndex : $nthChildIndex + 1;
@@ -91,6 +100,9 @@ $teintesLightReverse : reverse($teintes-light,true);
 
     .#{$colorName}.#{$saturateName}{
       background-color: saturate($color, $percentDarken);
+      &.hoverable:hover{
+        background-color: pal(saturate($color, $percentDarken),'d3');
+      }
     }
 
     $nthChildIndex : $nthChildIndex + 1;
@@ -104,12 +116,11 @@ $teintesLightReverse : reverse($teintes-light,true);
   @each $colorName, $color in $colors{
     .#{$colorName}.#{$desaturateName}{
       background-color: adjust-hue($color, $percentDarken);
+      &.hoverable:hover{
+        background-color: pal(adjust-hue($color, $percentDarken),'d3');
+      }
     }
-
-
     $nthChildIndex : $nthChildIndex + 1;
-
-
   }
 
 }

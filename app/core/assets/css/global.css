@@ -2575,1323 +2575,2205 @@ body, html {
 
 .orange.l5 {
   background-color: #ffcc80; }
+  .orange.l5.hoverable:hover {
+    background-color: #ffad33; }
 
 .red.l5 {
   background-color: #fbb4af; }
+  .red.l5.hoverable:hover {
+    background-color: #f77066; }
 
 .pink.l5 {
   background-color: #f492b4; }
+  .pink.l5.hoverable:hover {
+    background-color: #ee4c83; }
 
 .purple.l5 {
   background-color: #d176e1; }
+  .purple.l5.hoverable:hover {
+    background-color: #bc37d3; }
 
 .deep-purple.l5 {
   background-color: #ae94dd; }
+  .deep-purple.l5.hoverable:hover {
+    background-color: #8259cb; }
 
 .indigo.l5 {
   background-color: #80b6ff; }
+  .indigo.l5.hoverable:hover {
+    background-color: #338aff; }
 
 .blue.l5 {
   background-color: #9acffa; }
+  .blue.l5.hoverable:hover {
+    background-color: #51adf6; }
 
 .light-blue.l5 {
   background-color: #79d4fd; }
+  .light-blue.l5.hoverable:hover {
+    background-color: #2ebcfc; }
 
 .cyan.l5 {
   background-color: #55ecff; }
+  .cyan.l5.hoverable:hover {
+    background-color: #08e3ff; }
 
 .teal.l5 {
   background-color: #17ffe9; }
+  .teal.l5.hoverable:hover {
+    background-color: #00c9b6; }
 
 .green.l5 {
   background-color: #4eff50; }
+  .green.l5.hoverable:hover {
+    background-color: #01ff05; }
 
 .light-green.l5 {
   background-color: #c8e3aa; }
+  .light-green.l5.hoverable:hover {
+    background-color: #a4d070; }
 
 .lime.l5 {
   background-color: #e8efa5; }
+  .lime.l5.hoverable:hover {
+    background-color: #d8e464; }
 
 .yellow.l5 {
   background-color: #fff8bb; }
+  .yellow.l5.hoverable:hover {
+    background-color: #fff06e; }
 
 .amber.l5 {
   background-color: #ffe187; }
+  .amber.l5.hoverable:hover {
+    background-color: #ffce3a; }
 
 .deep-orange.l5 {
   background-color: #ffb8a2; }
+  .deep-orange.l5.hoverable:hover {
+    background-color: #ff7e55; }
 
 .brown.l5 {
   background-color: #b89588; }
+  .brown.l5.hoverable:hover {
+    background-color: #996b5b; }
 
 .blue-grey.l5 {
   background-color: #a8bac3; }
+  .blue-grey.l5.hoverable:hover {
+    background-color: #7b96a3; }
 
 .white.l5 {
   background-color: white; }
+  .white.l5.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.l5 {
   background-color: #dedede; }
+  .grey.l5.hoverable:hover {
+    background-color: #b8b8b8; }
 
 .black.l5 {
   background-color: #404040; }
+  .black.l5.hoverable:hover {
+    background-color: #1a1a1a; }
 
 .orange.l4 {
   background-color: #ffc166; }
+  .orange.l4.hoverable:hover {
+    background-color: #ffa21a; }
 
 .red.l4 {
   background-color: #f99d97; }
+  .red.l4.hoverable:hover {
+    background-color: #f55a4e; }
 
 .pink.l4 {
   background-color: #f27ba3; }
+  .pink.l4.hoverable:hover {
+    background-color: #eb3573; }
 
 .purple.l4 {
   background-color: #ca61dc; }
+  .purple.l4.hoverable:hover {
+    background-color: #af2cc5; }
 
 .deep-purple.l4 {
   background-color: #9f80d7; }
+  .deep-purple.l4.hoverable:hover {
+    background-color: #7446c4; }
 
 .indigo.l4 {
   background-color: #66a7ff; }
+  .indigo.l4.hoverable:hover {
+    background-color: #1a7cff; }
 
 .blue.l4 {
   background-color: #82c4f8; }
+  .blue.l4.hoverable:hover {
+    background-color: #39a1f4; }
 
 .light-blue.l4 {
   background-color: #60ccfd; }
+  .light-blue.l4.hoverable:hover {
+    background-color: #14b4fc; }
 
 .cyan.l4 {
   background-color: #3be9ff; }
+  .cyan.l4.hoverable:hover {
+    background-color: #00d3ee; }
 
 .teal.l4 {
   background-color: #00fce4; }
+  .teal.l4.hoverable:hover {
+    background-color: #00b09f; }
 
 .green.l4 {
   background-color: #34ff37; }
+  .green.l4.hoverable:hover {
+    background-color: #00e703; }
 
 .light-green.l4 {
   background-color: #bcdc97; }
+  .light-green.l4.hoverable:hover {
+    background-color: #97c95d; }
 
 .lime.l4 {
   background-color: #e3eb90; }
+  .lime.l4.hoverable:hover {
+    background-color: #d2e04f; }
 
 .yellow.l4 {
   background-color: #fff5a1; }
+  .yellow.l4.hoverable:hover {
+    background-color: #ffee55; }
 
 .amber.l4 {
   background-color: #ffdb6d; }
+  .amber.l4.hoverable:hover {
+    background-color: #ffc721; }
 
 .deep-orange.l4 {
   background-color: #ffa588; }
+  .deep-orange.l4.hoverable:hover {
+    background-color: #ff6a3c; }
 
 .brown.l4 {
   background-color: #af8778; }
+  .brown.l4.hoverable:hover {
+    background-color: #896052; }
 
 .blue-grey.l4 {
   background-color: #99aeb8; }
+  .blue-grey.l4.hoverable:hover {
+    background-color: #6b8a99; }
 
 .white.l4 {
   background-color: white; }
+  .white.l4.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.l4 {
   background-color: #d1d1d1; }
+  .grey.l4.hoverable:hover {
+    background-color: #ababab; }
 
 .black.l4 {
   background-color: #333333; }
+  .black.l4.hoverable:hover {
+    background-color: #0d0d0d; }
 
 .orange.l3 {
   background-color: #ffb74d; }
+  .orange.l3.hoverable:hover {
+    background-color: #ff9800; }
 
 .red.l3 {
   background-color: #f8877f; }
+  .red.l3.hoverable:hover {
+    background-color: #f44336; }
 
 .pink.l3 {
   background-color: #f06493; }
+  .pink.l3.hoverable:hover {
+    background-color: #e91e63; }
 
 .purple.l3 {
   background-color: #c34cd7; }
+  .purple.l3.hoverable:hover {
+    background-color: #9c27b0; }
 
 .deep-purple.l3 {
   background-color: #916dd1; }
+  .deep-purple.l3.hoverable:hover {
+    background-color: #673ab7; }
 
 .indigo.l3 {
   background-color: #4d99ff; }
+  .indigo.l3.hoverable:hover {
+    background-color: #006dff; }
 
 .blue.l3 {
   background-color: #6ab8f7; }
+  .blue.l3.hoverable:hover {
+    background-color: #2196f3; }
 
 .light-blue.l3 {
   background-color: #47c4fd; }
+  .light-blue.l3.hoverable:hover {
+    background-color: #03a9f4; }
 
 .cyan.l3 {
   background-color: #22e6ff; }
+  .cyan.l3.hoverable:hover {
+    background-color: #00bcd4; }
 
 .teal.l3 {
   background-color: #00e3cd; }
+  .teal.l3.hoverable:hover {
+    background-color: #009688; }
 
 .green.l3 {
   background-color: #1bff1e; }
+  .green.l3.hoverable:hover {
+    background-color: #00cd03; }
 
 .light-green.l3 {
   background-color: #b0d683; }
+  .light-green.l3.hoverable:hover {
+    background-color: #8bc34a; }
 
 .lime.l3 {
   background-color: #dde77a; }
+  .lime.l3.hoverable:hover {
+    background-color: #cddc39; }
 
 .yellow.l3 {
   background-color: #fff388; }
+  .yellow.l3.hoverable:hover {
+    background-color: #ffeb3b; }
 
 .amber.l3 {
   background-color: #ffd454; }
+  .amber.l3.hoverable:hover {
+    background-color: #ffc107; }
 
 .deep-orange.l3 {
   background-color: #ff916f; }
+  .deep-orange.l3.hoverable:hover {
+    background-color: #ff5722; }
 
 .brown.l3 {
   background-color: #a57868; }
+  .brown.l3.hoverable:hover {
+    background-color: #795548; }
 
 .blue-grey.l3 {
   background-color: #8aa2ae; }
+  .blue-grey.l3.hoverable:hover {
+    background-color: #607d8b; }
 
 .white.l3 {
   background-color: white; }
+  .white.l3.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.l3 {
   background-color: #c4c4c4; }
+  .grey.l3.hoverable:hover {
+    background-color: #9e9e9e; }
 
 .black.l3 {
   background-color: #262626; }
+  .black.l3.hoverable:hover {
+    background-color: black; }
 
 .orange.l2 {
   background-color: #ffad33; }
+  .orange.l2.hoverable:hover {
+    background-color: #e68900; }
 
 .red.l2 {
   background-color: #f77066; }
+  .red.l2.hoverable:hover {
+    background-color: #f32c1e; }
 
 .pink.l2 {
   background-color: #ee4c83; }
+  .pink.l2.hoverable:hover {
+    background-color: #d81558; }
 
 .purple.l2 {
   background-color: #bc37d3; }
+  .purple.l2.hoverable:hover {
+    background-color: #89229b; }
 
 .deep-purple.l2 {
   background-color: #8259cb; }
+  .deep-purple.l2.hoverable:hover {
+    background-color: #5c34a4; }
 
 .indigo.l2 {
   background-color: #338aff; }
+  .indigo.l2.hoverable:hover {
+    background-color: #0062e6; }
 
 .blue.l2 {
   background-color: #51adf6; }
+  .blue.l2.hoverable:hover {
+    background-color: #0d8aee; }
 
 .light-blue.l2 {
   background-color: #2ebcfc; }
+  .light-blue.l2.hoverable:hover {
+    background-color: #0398db; }
 
 .cyan.l2 {
   background-color: #08e3ff; }
+  .cyan.l2.hoverable:hover {
+    background-color: #00a5bb; }
 
 .teal.l2 {
   background-color: #00c9b6; }
+  .teal.l2.hoverable:hover {
+    background-color: #007d71; }
 
 .green.l2 {
   background-color: #01ff05; }
+  .green.l2.hoverable:hover {
+    background-color: #00b403; }
 
 .light-green.l2 {
   background-color: #a4d070; }
+  .light-green.l2.hoverable:hover {
+    background-color: #7eb73d; }
 
 .lime.l2 {
   background-color: #d8e464; }
+  .lime.l2.hoverable:hover {
+    background-color: #c6d626; }
 
 .yellow.l2 {
   background-color: #fff06e; }
+  .yellow.l2.hoverable:hover {
+    background-color: #ffe822; }
 
 .amber.l2 {
   background-color: #ffce3a; }
+  .amber.l2.hoverable:hover {
+    background-color: #edb100; }
 
 .deep-orange.l2 {
   background-color: #ff7e55; }
+  .deep-orange.l2.hoverable:hover {
+    background-color: #ff4409; }
 
 .brown.l2 {
   background-color: #996b5b; }
+  .brown.l2.hoverable:hover {
+    background-color: #694a3e; }
 
 .blue-grey.l2 {
   background-color: #7b96a3; }
+  .blue-grey.l2.hoverable:hover {
+    background-color: #566f7c; }
 
 .white.l2 {
   background-color: white; }
+  .white.l2.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.l2 {
   background-color: #b8b8b8; }
+  .grey.l2.hoverable:hover {
+    background-color: #919191; }
 
 .black.l2 {
   background-color: #1a1a1a; }
+  .black.l2.hoverable:hover {
+    background-color: black; }
 
 .orange.l1 {
   background-color: #ffa21a; }
+  .orange.l1.hoverable:hover {
+    background-color: #cc7a00; }
 
 .red.l1 {
   background-color: #f55a4e; }
+  .red.l1.hoverable:hover {
+    background-color: #ea1c0d; }
 
 .pink.l1 {
   background-color: #eb3573; }
+  .pink.l1.hoverable:hover {
+    background-color: #c1134e; }
 
 .purple.l1 {
   background-color: #af2cc5; }
+  .purple.l1.hoverable:hover {
+    background-color: #771e86; }
 
 .deep-purple.l1 {
   background-color: #7446c4; }
+  .deep-purple.l1.hoverable:hover {
+    background-color: #512e90; }
 
 .indigo.l1 {
   background-color: #1a7cff; }
+  .indigo.l1.hoverable:hover {
+    background-color: #0057cc; }
 
 .blue.l1 {
   background-color: #39a1f4; }
+  .blue.l1.hoverable:hover {
+    background-color: #0c7cd5; }
 
 .light-blue.l1 {
   background-color: #14b4fc; }
+  .light-blue.l1.hoverable:hover {
+    background-color: #0286c2; }
 
 .cyan.l1 {
   background-color: #00d3ee; }
+  .cyan.l1.hoverable:hover {
+    background-color: #008fa1; }
 
 .teal.l1 {
   background-color: #00b09f; }
+  .teal.l1.hoverable:hover {
+    background-color: #00635a; }
 
 .green.l1 {
   background-color: #00e703; }
+  .green.l1.hoverable:hover {
+    background-color: #009a02; }
 
 .light-green.l1 {
   background-color: #97c95d; }
+  .light-green.l1.hoverable:hover {
+    background-color: #71a436; }
 
 .lime.l1 {
   background-color: #d2e04f; }
+  .lime.l1.hoverable:hover {
+    background-color: #b2c022; }
 
 .yellow.l1 {
   background-color: #ffee55; }
+  .yellow.l1.hoverable:hover {
+    background-color: #ffe608; }
 
 .amber.l1 {
   background-color: #ffc721; }
+  .amber.l1.hoverable:hover {
+    background-color: #d39e00; }
 
 .deep-orange.l1 {
   background-color: #ff6a3c; }
+  .deep-orange.l1.hoverable:hover {
+    background-color: #ee3900; }
 
 .brown.l1 {
   background-color: #896052; }
+  .brown.l1.hoverable:hover {
+    background-color: #593f35; }
 
 .blue-grey.l1 {
   background-color: #6b8a99; }
+  .blue-grey.l1.hoverable:hover {
+    background-color: #4b626d; }
 
 .white.l1 {
   background-color: white; }
+  .white.l1.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.l1 {
   background-color: #ababab; }
+  .grey.l1.hoverable:hover {
+    background-color: #858585; }
 
 .black.l1 {
   background-color: #0d0d0d; }
+  .black.l1.hoverable:hover {
+    background-color: black; }
 
 .orange {
   background-color: #ff9800; }
+  .orange.hoverable:hover {
+    background-color: #b36a00; }
 
 .red {
   background-color: #F44336; }
+  .red.hoverable:hover {
+    background-color: #d2190b; }
 
 .pink {
   background-color: #e91e63; }
+  .pink.hoverable:hover {
+    background-color: #aa1145; }
 
 .purple {
   background-color: #9c27b0; }
+  .purple.hoverable:hover {
+    background-color: #641971; }
 
 .deep-purple {
   background-color: #673ab7; }
+  .deep-purple.hoverable:hover {
+    background-color: #46287d; }
 
 .indigo {
   background-color: #006dff; }
+  .indigo.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue {
   background-color: #2196F3; }
+  .blue.hoverable:hover {
+    background-color: #0a6ebd; }
 
 .light-blue {
   background-color: #03a9f4; }
+  .light-blue.hoverable:hover {
+    background-color: #0275a8; }
 
 .cyan {
   background-color: #00bcd4; }
+  .cyan.hoverable:hover {
+    background-color: #007888; }
 
 .teal {
   background-color: #009688; }
+  .teal.hoverable:hover {
+    background-color: #004a43; }
 
 .green {
   background-color: #00cd03; }
+  .green.hoverable:hover {
+    background-color: #008102; }
 
 .light-green {
   background-color: #8bc34a; }
+  .light-green.hoverable:hover {
+    background-color: #649130; }
 
 .lime {
   background-color: #cddc39; }
+  .lime.hoverable:hover {
+    background-color: #9daa1e; }
 
 .yellow {
   background-color: #ffeb3b; }
+  .yellow.hoverable:hover {
+    background-color: #eed500; }
 
 .amber {
   background-color: #ffc107; }
+  .amber.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange {
   background-color: #ff5722; }
+  .deep-orange.hoverable:hover {
+    background-color: #d53300; }
 
 .brown {
   background-color: #795548; }
+  .brown.hoverable:hover {
+    background-color: #49332b; }
 
 .blue-grey {
   background-color: #607d8b; }
+  .blue-grey.hoverable:hover {
+    background-color: #41545e; }
 
 .white {
   background-color: #fff; }
+  .white.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey {
   background-color: #9e9e9e; }
+  .grey.hoverable:hover {
+    background-color: #787878; }
 
 .black {
   background-color: #000; }
+  .black.hoverable:hover {
+    background-color: black; }
 
 .orange.d1 {
   background-color: #e68900; }
+  .orange.d1.hoverable:hover {
+    background-color: #995b00; }
 
 .red.d1 {
   background-color: #f32c1e; }
+  .red.d1.hoverable:hover {
+    background-color: #ba160a; }
 
 .pink.d1 {
   background-color: #d81558; }
+  .pink.d1.hoverable:hover {
+    background-color: #930e3b; }
 
 .purple.d1 {
   background-color: #89229b; }
+  .purple.d1.hoverable:hover {
+    background-color: #52145d; }
 
 .deep-purple.d1 {
   background-color: #5c34a4; }
+  .deep-purple.d1.hoverable:hover {
+    background-color: #3b216a; }
 
 .indigo.d1 {
   background-color: #0062e6; }
+  .indigo.d1.hoverable:hover {
+    background-color: #004199; }
 
 .blue.d1 {
   background-color: #0d8aee; }
+  .blue.d1.hoverable:hover {
+    background-color: #0960a5; }
 
 .light-blue.d1 {
   background-color: #0398db; }
+  .light-blue.d1.hoverable:hover {
+    background-color: #02638f; }
 
 .cyan.d1 {
   background-color: #00a5bb; }
+  .cyan.d1.hoverable:hover {
+    background-color: #00626e; }
 
 .teal.d1 {
   background-color: #007d71; }
+  .teal.d1.hoverable:hover {
+    background-color: #00302c; }
 
 .green.d1 {
   background-color: #00b403; }
+  .green.d1.hoverable:hover {
+    background-color: #006702; }
 
 .light-green.d1 {
   background-color: #7eb73d; }
+  .light-green.d1.hoverable:hover {
+    background-color: #577d2a; }
 
 .lime.d1 {
   background-color: #c6d626; }
+  .lime.d1.hoverable:hover {
+    background-color: #89951a; }
 
 .yellow.d1 {
   background-color: #ffe822; }
+  .yellow.d1.hoverable:hover {
+    background-color: #d4be00; }
 
 .amber.d1 {
   background-color: #edb100; }
+  .amber.d1.hoverable:hover {
+    background-color: #a07800; }
 
 .deep-orange.d1 {
   background-color: #ff4409; }
+  .deep-orange.d1.hoverable:hover {
+    background-color: #bb2d00; }
 
 .brown.d1 {
   background-color: #694a3e; }
+  .brown.d1.hoverable:hover {
+    background-color: #392822; }
 
 .blue-grey.d1 {
   background-color: #566f7c; }
+  .blue-grey.d1.hoverable:hover {
+    background-color: #36474f; }
 
 .white.d1 {
   background-color: #f2f2f2; }
+  .white.d1.hoverable:hover {
+    background-color: #cccccc; }
 
 .grey.d1 {
   background-color: #919191; }
+  .grey.d1.hoverable:hover {
+    background-color: #6b6b6b; }
 
 .black.d1 {
   background-color: black; }
+  .black.d1.hoverable:hover {
+    background-color: black; }
 
 .orange.d2 {
   background-color: #cc7a00; }
+  .orange.d2.hoverable:hover {
+    background-color: #804c00; }
 
 .red.d2 {
   background-color: #ea1c0d; }
+  .red.d2.hoverable:hover {
+    background-color: #a21309; }
 
 .pink.d2 {
   background-color: #c1134e; }
+  .pink.d2.hoverable:hover {
+    background-color: #7b0c32; }
 
 .purple.d2 {
   background-color: #771e86; }
+  .purple.d2.hoverable:hover {
+    background-color: #3f1048; }
 
 .deep-purple.d2 {
   background-color: #512e90; }
+  .deep-purple.d2.hoverable:hover {
+    background-color: #311b56; }
 
 .indigo.d2 {
   background-color: #0057cc; }
+  .indigo.d2.hoverable:hover {
+    background-color: #003780; }
 
 .blue.d2 {
   background-color: #0c7cd5; }
+  .blue.d2.hoverable:hover {
+    background-color: #08528d; }
 
 .light-blue.d2 {
   background-color: #0286c2; }
+  .light-blue.d2.hoverable:hover {
+    background-color: #015276; }
 
 .cyan.d2 {
   background-color: #008fa1; }
+  .cyan.d2.hoverable:hover {
+    background-color: #004b55; }
 
 .teal.d2 {
   background-color: #00635a; }
+  .teal.d2.hoverable:hover {
+    background-color: #001714; }
 
 .green.d2 {
   background-color: #009a02; }
+  .green.d2.hoverable:hover {
+    background-color: #004e01; }
 
 .light-green.d2 {
   background-color: #71a436; }
+  .light-green.d2.hoverable:hover {
+    background-color: #496a23; }
 
 .lime.d2 {
   background-color: #b2c022; }
+  .lime.d2.hoverable:hover {
+    background-color: #757f16; }
 
 .yellow.d2 {
   background-color: #ffe608; }
+  .yellow.d2.hoverable:hover {
+    background-color: #bba700; }
 
 .amber.d2 {
   background-color: #d39e00; }
+  .amber.d2.hoverable:hover {
+    background-color: #876500; }
 
 .deep-orange.d2 {
   background-color: #ee3900; }
+  .deep-orange.d2.hoverable:hover {
+    background-color: #a22700; }
 
 .brown.d2 {
   background-color: #593f35; }
+  .brown.d2.hoverable:hover {
+    background-color: #291d18; }
 
 .blue-grey.d2 {
   background-color: #4b626d; }
+  .blue-grey.d2.hoverable:hover {
+    background-color: #2c3940; }
 
 .white.d2 {
   background-color: #e6e6e6; }
+  .white.d2.hoverable:hover {
+    background-color: #bfbfbf; }
 
 .grey.d2 {
   background-color: #858585; }
+  .grey.d2.hoverable:hover {
+    background-color: #5e5e5e; }
 
 .black.d2 {
   background-color: black; }
+  .black.d2.hoverable:hover {
+    background-color: black; }
 
 .orange.d3 {
   background-color: #b36a00; }
+  .orange.d3.hoverable:hover {
+    background-color: #663d00; }
 
 .red.d3 {
   background-color: #d2190b; }
+  .red.d3.hoverable:hover {
+    background-color: #891008; }
 
 .pink.d3 {
   background-color: #aa1145; }
+  .pink.d3.hoverable:hover {
+    background-color: #640a29; }
 
 .purple.d3 {
   background-color: #641971; }
+  .purple.d3.hoverable:hover {
+    background-color: #2d0b33; }
 
 .deep-purple.d3 {
   background-color: #46287d; }
+  .deep-purple.d3.hoverable:hover {
+    background-color: #261543; }
 
 .indigo.d3 {
   background-color: #004cb3; }
+  .indigo.d3.hoverable:hover {
+    background-color: #002c66; }
 
 .blue.d3 {
   background-color: #0a6ebd; }
+  .blue.d3.hoverable:hover {
+    background-color: #064475; }
 
 .light-blue.d3 {
   background-color: #0275a8; }
+  .light-blue.d3.hoverable:hover {
+    background-color: #01405d; }
 
 .cyan.d3 {
   background-color: #007888; }
+  .cyan.d3.hoverable:hover {
+    background-color: #00343b; }
 
 .teal.d3 {
   background-color: #004a43; }
+  .teal.d3.hoverable:hover {
+    background-color: black; }
 
 .green.d3 {
   background-color: #008102; }
+  .green.d3.hoverable:hover {
+    background-color: #003401; }
 
 .light-green.d3 {
   background-color: #649130; }
+  .light-green.d3.hoverable:hover {
+    background-color: #3c571d; }
 
 .lime.d3 {
   background-color: #9daa1e; }
+  .lime.d3.hoverable:hover {
+    background-color: #616913; }
 
 .yellow.d3 {
   background-color: #eed500; }
+  .yellow.d3.hoverable:hover {
+    background-color: #a19100; }
 
 .amber.d3 {
   background-color: #ba8b00; }
+  .amber.d3.hoverable:hover {
+    background-color: #6d5200; }
 
 .deep-orange.d3 {
   background-color: #d53300; }
+  .deep-orange.d3.hoverable:hover {
+    background-color: #882100; }
 
 .brown.d3 {
   background-color: #49332b; }
+  .brown.d3.hoverable:hover {
+    background-color: #19120f; }
 
 .blue-grey.d3 {
   background-color: #41545e; }
+  .blue-grey.d3.hoverable:hover {
+    background-color: #212c31; }
 
 .white.d3 {
   background-color: #d9d9d9; }
+  .white.d3.hoverable:hover {
+    background-color: #b3b3b3; }
 
 .grey.d3 {
   background-color: #787878; }
+  .grey.d3.hoverable:hover {
+    background-color: #525252; }
 
 .black.d3 {
   background-color: black; }
+  .black.d3.hoverable:hover {
+    background-color: black; }
 
 .orange.d4 {
   background-color: #995b00; }
+  .orange.d4.hoverable:hover {
+    background-color: #4d2e00; }
 
 .red.d4 {
   background-color: #ba160a; }
+  .red.d4.hoverable:hover {
+    background-color: #710e06; }
 
 .pink.d4 {
   background-color: #930e3b; }
+  .pink.d4.hoverable:hover {
+    background-color: #4d081f; }
 
 .purple.d4 {
   background-color: #52145d; }
+  .purple.d4.hoverable:hover {
+    background-color: #1a071e; }
 
 .deep-purple.d4 {
   background-color: #3b216a; }
+  .deep-purple.d4.hoverable:hover {
+    background-color: #1b0f2f; }
 
 .indigo.d4 {
   background-color: #004199; }
+  .indigo.d4.hoverable:hover {
+    background-color: #00214d; }
 
 .blue.d4 {
   background-color: #0960a5; }
+  .blue.d4.hoverable:hover {
+    background-color: #05365d; }
 
 .light-blue.d4 {
   background-color: #02638f; }
+  .light-blue.d4.hoverable:hover {
+    background-color: #012f44; }
 
 .cyan.d4 {
   background-color: #00626e; }
+  .cyan.d4.hoverable:hover {
+    background-color: #001e22; }
 
 .teal.d4 {
   background-color: #00302c; }
+  .teal.d4.hoverable:hover {
+    background-color: black; }
 
 .green.d4 {
   background-color: #006702; }
+  .green.d4.hoverable:hover {
+    background-color: #001b00; }
 
 .light-green.d4 {
   background-color: #577d2a; }
+  .light-green.d4.hoverable:hover {
+    background-color: #2f4417; }
 
 .lime.d4 {
   background-color: #89951a; }
+  .lime.d4.hoverable:hover {
+    background-color: #4d540f; }
 
 .yellow.d4 {
   background-color: #d4be00; }
+  .yellow.d4.hoverable:hover {
+    background-color: #887a00; }
 
 .amber.d4 {
   background-color: #a07800; }
+  .amber.d4.hoverable:hover {
+    background-color: #543f00; }
 
 .deep-orange.d4 {
   background-color: #bb2d00; }
+  .deep-orange.d4.hoverable:hover {
+    background-color: #6f1b00; }
 
 .brown.d4 {
   background-color: #392822; }
+  .brown.d4.hoverable:hover {
+    background-color: #090605; }
 
 .blue-grey.d4 {
   background-color: #36474f; }
+  .blue-grey.d4.hoverable:hover {
+    background-color: #171e21; }
 
 .white.d4 {
   background-color: #cccccc; }
+  .white.d4.hoverable:hover {
+    background-color: #a6a6a6; }
 
 .grey.d4 {
   background-color: #6b6b6b; }
+  .grey.d4.hoverable:hover {
+    background-color: #454545; }
 
 .black.d4 {
   background-color: black; }
+  .black.d4.hoverable:hover {
+    background-color: black; }
 
 .orange.d5 {
   background-color: #804c00; }
+  .orange.d5.hoverable:hover {
+    background-color: #331e00; }
 
 .red.d5 {
   background-color: #a21309; }
+  .red.d5.hoverable:hover {
+    background-color: #590b05; }
 
 .pink.d5 {
   background-color: #7b0c32; }
+  .pink.d5.hoverable:hover {
+    background-color: #360516; }
 
 .purple.d5 {
   background-color: #3f1048; }
+  .purple.d5.hoverable:hover {
+    background-color: #080209; }
 
 .deep-purple.d5 {
   background-color: #311b56; }
+  .deep-purple.d5.hoverable:hover {
+    background-color: #10091c; }
 
 .indigo.d5 {
   background-color: #003780; }
+  .indigo.d5.hoverable:hover {
+    background-color: #001633; }
 
 .blue.d5 {
   background-color: #08528d; }
+  .blue.d5.hoverable:hover {
+    background-color: #042844; }
 
 .light-blue.d5 {
   background-color: #015276; }
+  .light-blue.d5.hoverable:hover {
+    background-color: #011d2a; }
 
 .cyan.d5 {
   background-color: #004b55; }
+  .cyan.d5.hoverable:hover {
+    background-color: #000708; }
 
 .teal.d5 {
   background-color: #001714; }
+  .teal.d5.hoverable:hover {
+    background-color: black; }
 
 .green.d5 {
   background-color: #004e01; }
+  .green.d5.hoverable:hover {
+    background-color: #000100; }
 
 .light-green.d5 {
   background-color: #496a23; }
+  .light-green.d5.hoverable:hover {
+    background-color: #223110; }
 
 .lime.d5 {
   background-color: #757f16; }
+  .lime.d5.hoverable:hover {
+    background-color: #393e0b; }
 
 .yellow.d5 {
   background-color: #bba700; }
+  .yellow.d5.hoverable:hover {
+    background-color: #6e6300; }
 
 .amber.d5 {
   background-color: #876500; }
+  .amber.d5.hoverable:hover {
+    background-color: #3a2c00; }
 
 .deep-orange.d5 {
   background-color: #a22700; }
+  .deep-orange.d5.hoverable:hover {
+    background-color: #551400; }
 
 .brown.d5 {
   background-color: #291d18; }
+  .brown.d5.hoverable:hover {
+    background-color: black; }
 
 .blue-grey.d5 {
   background-color: #2c3940; }
+  .blue-grey.d5.hoverable:hover {
+    background-color: #0d1012; }
 
 .white.d5 {
   background-color: #bfbfbf; }
+  .white.d5.hoverable:hover {
+    background-color: #999999; }
 
 .grey.d5 {
   background-color: #5e5e5e; }
+  .grey.d5.hoverable:hover {
+    background-color: #383838; }
 
 .black.d5 {
   background-color: black; }
+  .black.d5.hoverable:hover {
+    background-color: black; }
 
 .orange.s1 {
   background-color: #ff9800; }
+  .orange.s1.hoverable:hover {
+    background-color: #b36a00; }
 
 .red.s1 {
   background-color: #ff3a2b; }
+  .red.s1.hoverable:hover {
+    background-color: #dd1000; }
 
 .pink.s1 {
   background-color: #f5125f; }
+  .pink.s1.hoverable:hover {
+    background-color: #b30742; }
 
 .purple.s1 {
   background-color: #a41cbb; }
+  .purple.s1.hoverable:hover {
+    background-color: #691278; }
 
 .deep-purple.s1 {
   background-color: #642ec3; }
+  .deep-purple.s1.hoverable:hover {
+    background-color: #441f85; }
 
 .indigo.s1 {
   background-color: #006dff; }
+  .indigo.s1.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue.s1 {
   background-color: #1597ff; }
+  .blue.s1.hoverable:hover {
+    background-color: #006fc7; }
 
 .light-blue.s1 {
   background-color: #00aaf7; }
+  .light-blue.s1.hoverable:hover {
+    background-color: #0075ab; }
 
 .cyan.s1 {
   background-color: #00bcd4; }
+  .cyan.s1.hoverable:hover {
+    background-color: #007888; }
 
 .teal.s1 {
   background-color: #009688; }
+  .teal.s1.hoverable:hover {
+    background-color: #004a43; }
 
 .green.s1 {
   background-color: #00cd03; }
+  .green.s1.hoverable:hover {
+    background-color: #008102; }
 
 .light-green.s1 {
   background-color: #8ccf3e; }
+  .light-green.s1.hoverable:hover {
+    background-color: #659a26; }
 
 .lime.s1 {
   background-color: #d7e82d; }
+  .lime.s1.hoverable:hover {
+    background-color: #a6b414; }
 
 .yellow.s1 {
   background-color: #ffeb3b; }
+  .yellow.s1.hoverable:hover {
+    background-color: #eed500; }
 
 .amber.s1 {
   background-color: #ffc107; }
+  .amber.s1.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange.s1 {
   background-color: #ff5722; }
+  .deep-orange.s1.hoverable:hover {
+    background-color: #d53300; }
 
 .brown.s1 {
   background-color: #83503e; }
+  .brown.s1.hoverable:hover {
+    background-color: #4f3126; }
 
 .blue-grey.s1 {
   background-color: #548197; }
+  .blue-grey.s1.hoverable:hover {
+    background-color: #395766; }
 
 .white.s1 {
   background-color: white; }
+  .white.s1.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.s1 {
   background-color: #a89494; }
+  .grey.s1.hoverable:hover {
+    background-color: #846c6c; }
 
 .black.s1 {
   background-color: black; }
+  .black.s1.hoverable:hover {
+    background-color: black; }
 
 .orange.s2 {
   background-color: #ff9800; }
+  .orange.s2.hoverable:hover {
+    background-color: #b36a00; }
 
 .red.s2 {
   background-color: #ff3a2b; }
+  .red.s2.hoverable:hover {
+    background-color: #de0f00; }
 
 .pink.s2 {
   background-color: #ff085c; }
+  .pink.s2.hoverable:hover {
+    background-color: #bb003f; }
 
 .purple.s2 {
   background-color: #ab12c6; }
+  .purple.s2.hoverable:hover {
+    background-color: #6e0b7f; }
 
 .deep-purple.s2 {
   background-color: #6022cf; }
+  .deep-purple.s2.hoverable:hover {
+    background-color: #42178d; }
 
 .indigo.s2 {
   background-color: #006dff; }
+  .indigo.s2.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue.s2 {
   background-color: #1597ff; }
+  .blue.s2.hoverable:hover {
+    background-color: #006fc8; }
 
 .light-blue.s2 {
   background-color: #00aaf7; }
+  .light-blue.s2.hoverable:hover {
+    background-color: #0075ab; }
 
 .cyan.s2 {
   background-color: #00bcd4; }
+  .cyan.s2.hoverable:hover {
+    background-color: #007888; }
 
 .teal.s2 {
   background-color: #009688; }
+  .teal.s2.hoverable:hover {
+    background-color: #004a43; }
 
 .green.s2 {
   background-color: #00cd03; }
+  .green.s2.hoverable:hover {
+    background-color: #008102; }
 
 .light-green.s2 {
   background-color: #8ddb32; }
+  .light-green.s2.hoverable:hover {
+    background-color: #65a41d; }
 
 .lime.s2 {
   background-color: #e0f322; }
+  .lime.s2.hoverable:hover {
+    background-color: #aebe0a; }
 
 .yellow.s2 {
   background-color: #ffeb3b; }
+  .yellow.s2.hoverable:hover {
+    background-color: #eed500; }
 
 .amber.s2 {
   background-color: #ffc107; }
+  .amber.s2.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange.s2 {
   background-color: #ff5722; }
+  .deep-orange.s2.hoverable:hover {
+    background-color: #d53300; }
 
 .brown.s2 {
   background-color: #8c4c35; }
+  .brown.s2.hoverable:hover {
+    background-color: #552e20; }
 
 .blue-grey.s2 {
   background-color: #4985a3; }
+  .blue-grey.s2.hoverable:hover {
+    background-color: #315a6e; }
 
 .white.s2 {
   background-color: white; }
+  .white.s2.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.s2 {
   background-color: #b18b8b; }
+  .grey.s2.hoverable:hover {
+    background-color: #906060; }
 
 .black.s2 {
   background-color: black; }
+  .black.s2.hoverable:hover {
+    background-color: black; }
 
 .orange.s3 {
   background-color: #ff9800; }
+  .orange.s3.hoverable:hover {
+    background-color: #b36a00; }
 
 .red.s3 {
   background-color: #ff3a2b; }
+  .red.s3.hoverable:hover {
+    background-color: #de0f00; }
 
 .pink.s3 {
   background-color: #ff085c; }
+  .pink.s3.hoverable:hover {
+    background-color: #bb003f; }
 
 .purple.s3 {
   background-color: #b307d0; }
+  .purple.s3.hoverable:hover {
+    background-color: #730486; }
 
 .deep-purple.s3 {
   background-color: #5d16db; }
+  .deep-purple.s3.hoverable:hover {
+    background-color: #3f0f96; }
 
 .indigo.s3 {
   background-color: #006dff; }
+  .indigo.s3.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue.s3 {
   background-color: #1597ff; }
+  .blue.s3.hoverable:hover {
+    background-color: #006fc8; }
 
 .light-blue.s3 {
   background-color: #00aaf7; }
+  .light-blue.s3.hoverable:hover {
+    background-color: #0075ab; }
 
 .cyan.s3 {
   background-color: #00bcd4; }
+  .cyan.s3.hoverable:hover {
+    background-color: #007888; }
 
 .teal.s3 {
   background-color: #009688; }
+  .teal.s3.hoverable:hover {
+    background-color: #004a43; }
 
 .green.s3 {
   background-color: #00cd03; }
+  .green.s3.hoverable:hover {
+    background-color: #008102; }
 
 .light-green.s3 {
   background-color: #8ee726; }
+  .light-green.s3.hoverable:hover {
+    background-color: #66ad13; }
 
 .lime.s3 {
   background-color: #eaff16; }
+  .lime.s3.hoverable:hover {
+    background-color: #b6c800; }
 
 .yellow.s3 {
   background-color: #ffeb3b; }
+  .yellow.s3.hoverable:hover {
+    background-color: #eed500; }
 
 .amber.s3 {
   background-color: #ffc107; }
+  .amber.s3.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange.s3 {
   background-color: #ff5722; }
+  .deep-orange.s3.hoverable:hover {
+    background-color: #d53300; }
 
 .brown.s3 {
   background-color: #96472b; }
+  .brown.s3.hoverable:hover {
+    background-color: #5b2b1a; }
 
 .blue-grey.s3 {
   background-color: #3d89ae; }
+  .blue-grey.s3.hoverable:hover {
+    background-color: #295d76; }
 
 .white.s3 {
   background-color: white; }
+  .white.s3.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.s3 {
   background-color: #bb8181; }
+  .grey.s3.hoverable:hover {
+    background-color: #9c5454; }
 
 .black.s3 {
   background-color: black; }
+  .black.s3.hoverable:hover {
+    background-color: black; }
 
 .orange.s4 {
   background-color: #ff9800; }
+  .orange.s4.hoverable:hover {
+    background-color: #b36a00; }
 
 .red.s4 {
   background-color: #ff3a2b; }
+  .red.s4.hoverable:hover {
+    background-color: #de0f00; }
 
 .pink.s4 {
   background-color: #ff085c; }
+  .pink.s4.hoverable:hover {
+    background-color: #bb003f; }
 
 .purple.s4 {
   background-color: #b800d7; }
+  .purple.s4.hoverable:hover {
+    background-color: #76008b; }
 
 .deep-purple.s4 {
   background-color: #5a0ae7; }
+  .deep-purple.s4.hoverable:hover {
+    background-color: #3d079e; }
 
 .indigo.s4 {
   background-color: #006dff; }
+  .indigo.s4.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue.s4 {
   background-color: #1597ff; }
+  .blue.s4.hoverable:hover {
+    background-color: #006fc8; }
 
 .light-blue.s4 {
   background-color: #00aaf7; }
+  .light-blue.s4.hoverable:hover {
+    background-color: #0075ab; }
 
 .cyan.s4 {
   background-color: #00bcd4; }
+  .cyan.s4.hoverable:hover {
+    background-color: #007888; }
 
 .teal.s4 {
   background-color: #009688; }
+  .teal.s4.hoverable:hover {
+    background-color: #004a43; }
 
 .green.s4 {
   background-color: #00cd03; }
+  .green.s4.hoverable:hover {
+    background-color: #008102; }
 
 .light-green.s4 {
   background-color: #8ff31a; }
+  .light-green.s4.hoverable:hover {
+    background-color: #67b709; }
 
 .lime.s4 {
   background-color: #eaff16; }
+  .lime.s4.hoverable:hover {
+    background-color: #b6c900; }
 
 .yellow.s4 {
   background-color: #ffeb3b; }
+  .yellow.s4.hoverable:hover {
+    background-color: #eed500; }
 
 .amber.s4 {
   background-color: #ffc107; }
+  .amber.s4.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange.s4 {
   background-color: #ff5722; }
+  .deep-orange.s4.hoverable:hover {
+    background-color: #d53300; }
 
 .brown.s4 {
   background-color: #a04321; }
+  .brown.s4.hoverable:hover {
+    background-color: #602814; }
 
 .blue-grey.s4 {
   background-color: #318dba; }
+  .blue-grey.s4.hoverable:hover {
+    background-color: #215f7d; }
 
 .white.s4 {
   background-color: white; }
+  .white.s4.hoverable:hover {
+    background-color: #b3ffff; }
 
 .grey.s4 {
   background-color: #c57777; }
+  .grey.s4.hoverable:hover {
+    background-color: #a84848; }
 
 .black.s4 {
   background-color: black; }
+  .black.s4.hoverable:hover {
+    background-color: black; }
 
 .orange.s5 {
   background-color: #ff9800; }
+  .orange.s5.hoverable:hover {
+    background-color: #b36a00; }
 
 .red.s5 {
   background-color: #ff3a2b; }
+  .red.s5.hoverable:hover {
+    background-color: #de0f00; }
 
 .pink.s5 {
   background-color: #ff085c; }
+  .pink.s5.hoverable:hover {
+    background-color: #bb003f; }
 
 .purple.s5 {
   background-color: #b800d7; }
+  .purple.s5.hoverable:hover {
+    background-color: #76008b; }
 
 .deep-purple.s5 {
   background-color: #5700f1; }
+  .deep-purple.s5.hoverable:hover {
+    background-color: #3b00a5; }
 
 .indigo.s5 {
   background-color: #006dff; }
+  .indigo.s5.hoverable:hover {
+    background-color: #004cb3; }
 
 .blue.s5 {
   background-color: #1597ff; }
+  .blue.s5.hoverable:hover {
+    background-color: #006fc8; }
 
 .light-blue.s5 {
   background-color: #00aaf7; }
+  .light-blue.s5.hoverable:hover {
+    background-color: #0075ab; }
 
 .cyan.s5 {
   background-color: #00bcd4; }
+  .cyan.s5.hoverable:hover {
+    background-color: #007888; }
 
 .teal.s5 {
   background-color: #009688; }
+  .teal.s5.hoverable:hover {
+    background-color: #004a43; }
 
 .green.s5 {
   background-color: #00cd03; }
+  .green.s5.hoverable:hover {
+    background-color: #008102; }
 
 .light-green.s5 {
   background-color: #8fff0e; }
+  .light-green.s5.hoverable:hover {
+    background-color: #67c100; }
 
 .lime.s5 {
   background-color: #eaff16; }
+  .lime.s5.hoverable:hover {
+    background-color: #b6c900; }
 
 .yellow.s5 {
   background-color: #ffeb3b; }
+  .yellow.s5.hoverable:hover {
+    background-color: #eed500; }
 
 .amber.s5 {
   background-color: #ffc107; }
+  .amber.s5.hoverable:hover {
+    background-color: #ba8b00; }
 
 .deep-orange.s5 {
   background-color: #ff5722; }
+  .deep-orange.s5.hoverable:hover {
+    background-color: #d53300; }
 
 .brown.s5 {
   background-color: #a93e18; }
+  .brown.s5.hoverable:hover {
+    background-color: #66260e; }
 
 .blue-grey.s5 {
   background-color: #2591c6; }
+  .blue-grey.s5.hoverable:hover {
+    background-color: #196285; }
 
 .white.s5 {
   background-color: white; }
+  .white.s5.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.s5 {
   background-color: #cf6e6e; }
+  .grey.s5.hoverable:hover {
+    background-color: #b43c3c; }
 
 .black.s5 {
   background-color: black; }
+  .black.s5.hoverable:hover {
+    background-color: black; }
 
 .orange.ds1 {
   background-color: #ffc300; }
+  .orange.ds1.hoverable:hover {
+    background-color: #b38800; }
 
 .red.ds1 {
   background-color: #f46336; }
+  .red.ds1.hoverable:hover {
+    background-color: #d23a0b; }
 
 .pink.ds1 {
   background-color: #e91e41; }
+  .pink.ds1.hoverable:hover {
+    background-color: #aa112b; }
 
 .purple.ds1 {
   background-color: #b027ad; }
+  .purple.ds1.hoverable:hover {
+    background-color: #711970; }
 
 .deep-purple.ds1 {
   background-color: #7c3ab7; }
+  .deep-purple.ds1.hoverable:hover {
+    background-color: #55287d; }
 
 .indigo.ds1 {
   background-color: #0043ff; }
+  .indigo.ds1.hoverable:hover {
+    background-color: #002fb3; }
 
 .blue.ds1 {
   background-color: #2173f3; }
+  .blue.ds1.hoverable:hover {
+    background-color: #0a50bd; }
 
 .light-blue.ds1 {
   background-color: #0381f4; }
+  .light-blue.ds1.hoverable:hover {
+    background-color: #0259a8; }
 
 .cyan.ds1 {
   background-color: #0099d4; }
+  .cyan.ds1.hoverable:hover {
+    background-color: #006288; }
 
 .teal.ds1 {
   background-color: #008b96; }
+  .teal.ds1.hoverable:hover {
+    background-color: #00444a; }
 
 .green.ds1 {
   background-color: #00cd25; }
+  .green.ds1.hoverable:hover {
+    background-color: #008117; }
 
 .light-green.ds1 {
   background-color: #77c34a; }
+  .light-green.ds1.hoverable:hover {
+    background-color: #549130; }
 
 .lime.ds1 {
   background-color: #b2dc39; }
+  .lime.ds1.hoverable:hover {
+    background-color: #86aa1e; }
 
 .yellow.ds1 {
   background-color: #f2ff3b; }
+  .yellow.ds1.hoverable:hover {
+    background-color: #deee00; }
 
 .amber.ds1 {
   background-color: #ffea07; }
+  .amber.ds1.hoverable:hover {
+    background-color: #baaa00; }
 
 .deep-orange.ds1 {
   background-color: #ff7c22; }
+  .deep-orange.ds1.hoverable:hover {
+    background-color: #d55600; }
 
 .brown.ds1 {
   background-color: #795d48; }
+  .brown.ds1.hoverable:hover {
+    background-color: #49382b; }
 
 .blue-grey.ds1 {
   background-color: #60768b; }
+  .blue-grey.ds1.hoverable:hover {
+    background-color: #414f5e; }
 
 .white.ds1 {
   background-color: white; }
+  .white.ds1.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.ds1 {
   background-color: #9e9e9e; }
+  .grey.ds1.hoverable:hover {
+    background-color: #787878; }
 
 .black.ds1 {
   background-color: black; }
+  .black.ds1.hoverable:hover {
+    background-color: black; }
 
 .orange.ds2 {
   background-color: #ffed00; }
+  .orange.ds2.hoverable:hover {
+    background-color: #b3a600; }
 
 .red.ds2 {
   background-color: #f48236; }
+  .red.ds2.hoverable:hover {
+    background-color: #d25b0b; }
 
 .pink.ds2 {
   background-color: #e91e1f; }
+  .pink.ds2.hoverable:hover {
+    background-color: #aa1112; }
 
 .purple.ds2 {
   background-color: #b02796; }
+  .purple.ds2.hoverable:hover {
+    background-color: #711961; }
 
 .deep-purple.ds2 {
   background-color: #913ab7; }
+  .deep-purple.ds2.hoverable:hover {
+    background-color: #63287d; }
 
 .indigo.ds2 {
   background-color: #0018ff; }
+  .indigo.ds2.hoverable:hover {
+    background-color: #0011b3; }
 
 .blue.ds2 {
   background-color: #2150f3; }
+  .blue.ds2.hoverable:hover {
+    background-color: #0a32bd; }
 
 .light-blue.ds2 {
   background-color: #0359f4; }
+  .light-blue.ds2.hoverable:hover {
+    background-color: #023da8; }
 
 .cyan.ds2 {
   background-color: #0075d4; }
+  .cyan.ds2.hoverable:hover {
+    background-color: #004b88; }
 
 .teal.ds2 {
   background-color: #007296; }
+  .teal.ds2.hoverable:hover {
+    background-color: #00384a; }
 
 .green.ds2 {
   background-color: #00cd47; }
+  .green.ds2.hoverable:hover {
+    background-color: #00812d; }
 
 .light-green.ds2 {
   background-color: #63c34a; }
+  .light-green.ds2.hoverable:hover {
+    background-color: #449130; }
 
 .lime.ds2 {
   background-color: #97dc39; }
+  .lime.ds2.hoverable:hover {
+    background-color: #6faa1e; }
 
 .yellow.ds2 {
   background-color: #d2ff3b; }
+  .yellow.ds2.hoverable:hover {
+    background-color: #b7ee00; }
 
 .amber.ds2 {
   background-color: #eaff07; }
+  .amber.ds2.hoverable:hover {
+    background-color: #aaba00; }
 
 .deep-orange.ds2 {
   background-color: #ffa122; }
+  .deep-orange.ds2.hoverable:hover {
+    background-color: #d57a00; }
 
 .brown.ds2 {
   background-color: #796548; }
+  .brown.ds2.hoverable:hover {
+    background-color: #493d2b; }
 
 .blue-grey.ds2 {
   background-color: #606f8b; }
+  .blue-grey.ds2.hoverable:hover {
+    background-color: #414b5e; }
 
 .white.ds2 {
   background-color: white; }
+  .white.ds2.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.ds2 {
   background-color: #9e9e9e; }
+  .grey.ds2.hoverable:hover {
+    background-color: #787878; }
 
 .black.ds2 {
   background-color: black; }
+  .black.ds2.hoverable:hover {
+    background-color: black; }
 
 .orange.ds3 {
   background-color: #e7ff00; }
+  .orange.ds3.hoverable:hover {
+    background-color: #a1b300; }
 
 .red.ds3 {
   background-color: #f4a236; }
+  .red.ds3.hoverable:hover {
+    background-color: #d27c0b; }
 
 .pink.ds3 {
   background-color: #e93f1e; }
+  .pink.ds3.hoverable:hover {
+    background-color: #aa2911; }
 
 .purple.ds3 {
   background-color: #b02780; }
+  .purple.ds3.hoverable:hover {
+    background-color: #711952; }
 
 .deep-purple.ds3 {
   background-color: #a63ab7; }
+  .deep-purple.ds3.hoverable:hover {
+    background-color: #71287d; }
 
 .indigo.ds3 {
   background-color: #1300ff; }
+  .indigo.ds3.hoverable:hover {
+    background-color: #0d00b3; }
 
 .blue.ds3 {
   background-color: #212df3; }
+  .blue.ds3.hoverable:hover {
+    background-color: #0a14bd; }
 
 .light-blue.ds3 {
   background-color: #0331f4; }
+  .light-blue.ds3.hoverable:hover {
+    background-color: #0221a8; }
 
 .cyan.ds3 {
   background-color: #0052d4; }
+  .cyan.ds3.hoverable:hover {
+    background-color: #003488; }
 
 .teal.ds3 {
   background-color: #005996; }
+  .teal.ds3.hoverable:hover {
+    background-color: #002c4a; }
 
 .green.ds3 {
   background-color: #00cd6a; }
+  .green.ds3.hoverable:hover {
+    background-color: #008142; }
 
 .light-green.ds3 {
   background-color: #4fc34a; }
+  .light-green.ds3.hoverable:hover {
+    background-color: #349130; }
 
 .lime.ds3 {
   background-color: #7cdc39; }
+  .lime.ds3.hoverable:hover {
+    background-color: #57aa1e; }
 
 .yellow.ds3 {
   background-color: #b1ff3b; }
+  .yellow.ds3.hoverable:hover {
+    background-color: #8fee00; }
 
 .amber.ds3 {
   background-color: #c1ff07; }
+  .amber.ds3.hoverable:hover {
+    background-color: #8bba00; }
 
 .deep-orange.ds3 {
   background-color: #ffc622; }
+  .deep-orange.ds3.hoverable:hover {
+    background-color: #d59d00; }
 
 .brown.ds3 {
   background-color: #796e48; }
+  .brown.ds3.hoverable:hover {
+    background-color: #49422b; }
 
 .blue-grey.ds3 {
   background-color: #60688b; }
+  .blue-grey.ds3.hoverable:hover {
+    background-color: #41465e; }
 
 .white.ds3 {
   background-color: white; }
+  .white.ds3.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.ds3 {
   background-color: #9e9e9e; }
+  .grey.ds3.hoverable:hover {
+    background-color: #787878; }
 
 .black.ds3 {
   background-color: black; }
+  .black.ds3.hoverable:hover {
+    background-color: black; }
 
 .orange.ds4 {
   background-color: #bcff00; }
+  .orange.ds4.hoverable:hover {
+    background-color: #84b300; }
 
 .red.ds4 {
   background-color: #f4c236; }
+  .red.ds4.hoverable:hover {
+    background-color: #d29d0b; }
 
 .pink.ds4 {
   background-color: #e9601e; }
+  .pink.ds4.hoverable:hover {
+    background-color: #aa4311; }
 
 .purple.ds4 {
   background-color: #b02769; }
+  .purple.ds4.hoverable:hover {
+    background-color: #711943; }
 
 .deep-purple.ds4 {
   background-color: #b73ab4; }
+  .deep-purple.ds4.hoverable:hover {
+    background-color: #7d287b; }
 
 .indigo.ds4 {
   background-color: #3d00ff; }
+  .indigo.ds4.hoverable:hover {
+    background-color: #2b00b3; }
 
 .blue.ds4 {
   background-color: #3821f3; }
+  .blue.ds4.hoverable:hover {
+    background-color: #1e0abd; }
 
 .light-blue.ds4 {
   background-color: #0308f4; }
+  .light-blue.ds4.hoverable:hover {
+    background-color: #0206a8; }
 
 .cyan.ds4 {
   background-color: #002fd4; }
+  .cyan.ds4.hoverable:hover {
+    background-color: #001e88; }
 
 .teal.ds4 {
   background-color: #004096; }
+  .teal.ds4.hoverable:hover {
+    background-color: #001f4a; }
 
 .green.ds4 {
   background-color: #00cd8c; }
+  .green.ds4.hoverable:hover {
+    background-color: #008158; }
 
 .light-green.ds4 {
   background-color: #4ac35a; }
+  .light-green.ds4.hoverable:hover {
+    background-color: #30913c; }
 
 .lime.ds4 {
   background-color: #60dc39; }
+  .lime.ds4.hoverable:hover {
+    background-color: #40aa1e; }
 
 .yellow.ds4 {
   background-color: #90ff3b; }
+  .yellow.ds4.hoverable:hover {
+    background-color: #67ee00; }
 
 .amber.ds4 {
   background-color: #98ff07; }
+  .amber.ds4.hoverable:hover {
+    background-color: #6cba00; }
 
 .deep-orange.ds4 {
   background-color: #ffea22; }
+  .deep-orange.ds4.hoverable:hover {
+    background-color: #d5c100; }
 
 .brown.ds4 {
   background-color: #797648; }
+  .brown.ds4.hoverable:hover {
+    background-color: #49472b; }
 
 .blue-grey.ds4 {
   background-color: #60608b; }
+  .blue-grey.ds4.hoverable:hover {
+    background-color: #41415e; }
 
 .white.ds4 {
   background-color: white; }
+  .white.ds4.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.ds4 {
   background-color: #9e9e9e; }
+  .grey.ds4.hoverable:hover {
+    background-color: #787878; }
 
 .black.ds4 {
   background-color: black; }
+  .black.ds4.hoverable:hover {
+    background-color: black; }
 
 .orange.ds5 {
   background-color: #92ff00; }
+  .orange.ds5.hoverable:hover {
+    background-color: #66b300; }
 
 .red.ds5 {
   background-color: #f4e136; }
+  .red.ds5.hoverable:hover {
+    background-color: #d2bf0b; }
 
 .pink.ds5 {
   background-color: #e9821e; }
+  .pink.ds5.hoverable:hover {
+    background-color: #aa5c11; }
 
 .purple.ds5 {
   background-color: #b02752; }
+  .purple.ds5.hoverable:hover {
+    background-color: #711935; }
 
 .deep-purple.ds5 {
   background-color: #b73a9f; }
+  .deep-purple.ds5.hoverable:hover {
+    background-color: #7d286c; }
 
 .indigo.ds5 {
   background-color: #6800ff; }
+  .indigo.ds5.hoverable:hover {
+    background-color: #4800b3; }
 
 .blue.ds5 {
   background-color: #5b21f3; }
+  .blue.ds5.hoverable:hover {
+    background-color: #3c0abd; }
 
 .light-blue.ds5 {
   background-color: #2603f4; }
+  .light-blue.ds5.hoverable:hover {
+    background-color: #1a02a8; }
 
 .cyan.ds5 {
   background-color: #000bd4; }
+  .cyan.ds5.hoverable:hover {
+    background-color: #000788; }
 
 .teal.ds5 {
   background-color: #002796; }
+  .teal.ds5.hoverable:hover {
+    background-color: #00134a; }
 
 .green.ds5 {
   background-color: #00cdae; }
+  .green.ds5.hoverable:hover {
+    background-color: #00816d; }
 
 .light-green.ds5 {
   background-color: #4ac36e; }
+  .light-green.ds5.hoverable:hover {
+    background-color: #30914d; }
 
 .lime.ds5 {
   background-color: #45dc39; }
+  .lime.ds5.hoverable:hover {
+    background-color: #29aa1e; }
 
 .yellow.ds5 {
   background-color: #70ff3b; }
+  .yellow.ds5.hoverable:hover {
+    background-color: #40ee00; }
 
 .amber.ds5 {
   background-color: #6eff07; }
+  .amber.ds5.hoverable:hover {
+    background-color: #4dba00; }
 
 .deep-orange.ds5 {
   background-color: #efff22; }
+  .deep-orange.ds5.hoverable:hover {
+    background-color: #c5d500; }
 
 .brown.ds5 {
   background-color: #747948; }
+  .brown.ds5.hoverable:hover {
+    background-color: #46492b; }
 
 .blue-grey.ds5 {
   background-color: #67608b; }
+  .blue-grey.ds5.hoverable:hover {
+    background-color: #45415e; }
 
 .white.ds5 {
   background-color: white; }
+  .white.ds5.hoverable:hover {
+    background-color: #d9d9d9; }
 
 .grey.ds5 {
   background-color: #9e9e9e; }
+  .grey.ds5.hoverable:hover {
+    background-color: #787878; }
 
 .black.ds5 {
   background-color: black; }
+  .black.ds5.hoverable:hover {
+    background-color: black; }
