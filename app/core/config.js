@@ -1,16 +1,19 @@
-os.config.depApp = [
-            'ngResource',
-            'ui.router',
-            'oc.lazyLoad',
-            'os.core',
-            'os.plugins'
-          ];
+os.config.nameApp = 'os';
+os.config.subApps = [
+    'core',
+    'plugins'
+];
+os.config.depsApp = [
+    'ngResource',
+    'ui.router',
+    'oc.lazyLoad'
 
+];
 os.config.html5Mode = {
-            enabled: true,
-            requireBase: true
-          };
-
-os.config.link.default = 'app' ;
-os.config.link.core.default = os.config.link.default + '/core';
-os.config.link.core.views.default = os.config.link.core.default + '/views';
+    enabled: true,
+    requireBase: true
+};
+os.link.default = 'app' ;
+os.link.core.default = os.link.default + '/core';
+os.link.core.views.default = os.link.core.default + '/views';
+os.link.plugins.default = os.link.default + '/plugins';
