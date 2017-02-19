@@ -217,10 +217,10 @@ table {
 th {
   font-weight: inherit; }
 
-.os {
+div[ui-view] {
   height: 100%; }
 
-div[ui-view] {
+.os {
   height: 100%; }
 
 body, html {

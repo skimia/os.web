@@ -39,7 +39,7 @@
           "templateUrl" : "/views/layouts/dashboard.html"
         }
       },
-      "assets" : []
+      "assets" : ["/assets/css/dashboard.css"]
     }
   }
 
