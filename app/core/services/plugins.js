@@ -44,9 +44,12 @@ os.core.factory('$plugins',function($http){
         },
         loadAssetsDefault : function(assetsBefore){
             var allAssetsDefault = [];
-            for(assetsKey in assetsBefore){
-                allAssetsDefault.push('app/plugins/' + assetsKey + assetsBefore[assetsKey]);
-            }
+            $.each(assetsBefore,function(key,value){
+                $.each(value,function(k,v){
+                    allAssetsDefault.push('app/plugins/' + key + v);
+                });
+
+            });
             return allAssetsDefault;
         },
         addRef : function(refPlugins) {

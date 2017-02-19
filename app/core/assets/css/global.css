@@ -217,6 +217,9 @@ table {
 th {
   font-weight: inherit; }
 
+.os {
+  height: 100%; }
+
 div[ui-view] {
   height: 100%; }
 

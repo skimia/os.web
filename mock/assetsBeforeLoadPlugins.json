@@ -1,3 +1,6 @@
 {
-  "os-login" : ["/security/url_interceptor.js"]
+  "os-login" : [
+    "/security/url_interceptor.js",
+    "/coreElements/fastAction.js"
+  ]
 }

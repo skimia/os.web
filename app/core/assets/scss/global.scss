@@ -1,7 +1,9 @@
 @import 'quiver/quiver';
 @import 'config';
 
-
+.os{
+  height: 100%;
+}
 div[ui-view]{
   height: 100%;
 }

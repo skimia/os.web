@@ -7,6 +7,7 @@ os.core.config(function($locationProvider,$stateProvider,$urlRouterProvider){
 
 os.core.run(function($rootScope,$ocLazyLoad,$state,$plugins){
     os.state = $state;
+    os.rootScope = $rootScope;
 
     $plugins.getAll().then(function(refPlugins){
         $plugins.addRef(refPlugins);

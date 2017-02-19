@@ -6,7 +6,9 @@ os.config.subApps = [
 os.config.depsApp = [
     'ngResource',
     'ui.router',
-    'oc.lazyLoad'
+    'oc.lazyLoad',
+    'ngSanitize',
+    'angular-bind-html-compile'
 
 ];
 os.config.html5Mode = {
