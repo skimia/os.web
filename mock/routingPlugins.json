@@ -39,7 +39,14 @@
           "templateUrl" : "/views/layouts/dashboard.html"
         }
       },
-      "assets" : ["/assets/css/dashboard.css"]
+      "assets" : [
+        "/assets/css/owl.carousel.min.css",
+        "/assets/css/owl.theme.default.min.css",
+        "/assets/css/dashboard.css",
+        "/libs/owl.carousel.min.js",
+        "/controllers/dashboard_ctrl.js"
+
+      ]
     }
   }
 
