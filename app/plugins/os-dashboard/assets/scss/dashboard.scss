@@ -11,8 +11,13 @@
    }
    .owl-carousel{
      display: inline-block;
+     opacity: 0;
      vertical-align: middle;
      width: 99%;
+     transition: opacity, 1s;
+     &.owl-loaded{
+       opacity: 1;
+     }
    }
    .owl-prev{
      height: 6%;

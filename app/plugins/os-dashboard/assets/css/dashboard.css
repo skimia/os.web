@@ -8,8 +8,13 @@
             box-sizing: border-box; }
   .os.dashboard .owl-carousel {
     display: inline-block;
+    opacity: 0;
     vertical-align: middle;
-    width: 99%; }
+    width: 99%;
+    -webkit-transition: opacity, 1s;
+    transition: opacity, 1s; }
+    .os.dashboard .owl-carousel.owl-loaded {
+      opacity: 1; }
   .os.dashboard .owl-prev {
     height: 6%;
     width: 5%;
