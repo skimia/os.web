@@ -25,3 +25,91 @@ body,html{
   @include row();
 }
 @import "fontAwesome/font-awesome";
+@function reverse($list, $recursive: false) {
+  $result: ();
+
+  @for $i from length($list)*-1 through -1 {
+    @if type-of(nth($list, abs($i))) == list and $recursive {
+      $result: append($result, reverse(nth($list, abs($i)), $recursive));
+    }
+
+    @else {
+      $result: append($result, nth($list, abs($i)));
+    }
+  }
+
+  @return $result;
+}
+$nthChildIndex : 1;
+$teintesLightReverse : reverse($teintes-light,true);
+
+@each $percentLighten,$lightenName  in $teintesLightReverse{
+
+  @each $colorName, $color in $colors{
+
+
+    .#{$colorName}.#{$lightenName}{
+        background-color: lighten($color,$percentLighten);
+    }
+
+    $nthChildIndex : $nthChildIndex + 1;
+
+  }
+
+}
+
+@each $colorName, $color in $colors{
+
+  .#{$colorName}{
+    background-color: $color;
+  }
+
+  $nthChildIndex : $nthChildIndex + 1;
+
+
+}
+
+@each $darkenName, $percentDarken in $teintes-dark{
+
+  @each $colorName, $color in $colors{
+
+
+    .#{$colorName}.#{$darkenName}{
+      background-color: darken($color,$percentDarken);
+    }
+
+    $nthChildIndex : $nthChildIndex + 1;
+
+
+  }
+
+}
+
+@each $saturateName, $percentDarken in $saturation-dark{
+
+  @each $colorName, $color in $colors{
+
+    .#{$colorName}.#{$saturateName}{
+      background-color: saturate($color, $percentDarken);
+    }
+
+    $nthChildIndex : $nthChildIndex + 1;
+
+
+  }
+
+}
+@each $desaturateName, $percentDarken in $saturation-light{
+
+  @each $colorName, $color in $colors{
+    .#{$colorName}.#{$desaturateName}{
+      background-color: adjust-hue($color, $percentDarken);
+    }
+
+
+    $nthChildIndex : $nthChildIndex + 1;
+
+
+  }
+
+}

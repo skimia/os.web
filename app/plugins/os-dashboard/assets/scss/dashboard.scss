@@ -109,7 +109,7 @@
          height: 105px;
          @include col(1,5,5);
          padding: 0;
-         background:  pal('blue');
+
          .icon{
            padding-top:10px;
            height: 70px;
@@ -129,7 +129,7 @@
          height: 105px;
          @include col(1/2,5,5);
          padding: 0;
-         background:  pal('orange');
+
          .icon{
            padding-top:10px;
            height: 70px;
@@ -145,7 +145,7 @@
          }
        }
        &.small{
-         background:  pal('green');
+
          @include col(1/2,5,5);
          height: 50px;
          .icon{
