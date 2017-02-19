@@ -1,4 +1,5 @@
 os.module('os.dashboard').controller('dashboard_ctrl',function(){
+    os.rootScope.headTitle = 'Dashboard';
     $('#dashboardSlider').owlCarousel({
         items : 4,
         margin:20,
