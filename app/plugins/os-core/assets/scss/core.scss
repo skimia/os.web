@@ -83,6 +83,8 @@ div[ui-view="bodyApp"]{
             cursor: pointer;
             font-size: 14px;
             position: relative;
+            overflow: hidden;
+            border-radius: 0 0 0 5px;
             i{
               position: absolute;
               height: $length - 10px;
@@ -91,7 +93,9 @@ div[ui-view="bodyApp"]{
               left: 20px;
             }
             &:hover{
+              overflow: hidden;
               background: pal('blue','d4');
+              border-radius: 0 0 0 5px;
             }
           }
         }
