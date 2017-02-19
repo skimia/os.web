@@ -13,8 +13,7 @@
         "/assets/css/login.css",
         "/controllers/login.js"
       ]
-    },
-    "otherwise" : "/login"
+    }
   },
   {
     "os-core" : {

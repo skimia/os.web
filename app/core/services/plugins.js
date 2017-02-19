@@ -11,6 +11,11 @@ os.core.factory('$plugins',function($http){
                 return source.data
             });
         },
+        getRoutOtherwise : function (){
+            return $http.get('mock/routingOtherwise.json').then(function(source){
+                return source.data
+            });
+        },
         getRouting : function (){
             return $http.get('mock/routingPlugins.json').then(function(source){
                 return source.data
@@ -18,30 +23,23 @@ os.core.factory('$plugins',function($http){
         },
         checkRout : function (router){
             var obj = [];
-            for (routKey in router){
-                var currRout = router[routKey];
-                for(currRoutKey in currRout){
-                    var routing = currRout[currRoutKey];
-                    if(currRoutKey == 'otherwise'){
-                        os.routerProvider.otherwise(routing);
-                    }else{
-                        var setAssets = [];
-                        for(assets in routing.assets){
-                            setAssets.push('app/plugins/' + currRoutKey + routing.assets[assets]);
-
+            $.each(router,function(currRoutKey,currRout){
+                $.each(currRout,function(routeKey,route){
+                    var setAssets = [];
+                    $.each(route.assets,function(assetsKey,assets){
+                        setAssets.push('app/plugins/'+ routeKey + assets);
+                    });
+                    $.each(route.views,function(viewsKey,views){
+                        views.templateUrl = 'app/plugins/'+ routeKey + views.templateUrl;
+                    });
+                    route.resolve = {
+                        loadMyScript: function($ocLazyLoad) {
+                            return $ocLazyLoad.load(setAssets);
                         }
-                        for(view in routing.views){
-                            routing.views[view].templateUrl = 'app/plugins/' + currRoutKey + routing.views[view].templateUrl;
-                        }
-                        routing.resolve  = {
-                            loadMyScript: function($ocLazyLoad) {
-                                return $ocLazyLoad.load(setAssets);
-                            }
-                        };
-                        obj.push(routing);
-                    }
-                }
-            }
+                    };
+                    obj.push(route);
+                });
+            });
             return obj;
         },
         loadAssetsDefault : function(assetsBefore){
@@ -58,5 +56,4 @@ os.core.factory('$plugins',function($http){
         }
     };
     return $plugins;
-
 });
