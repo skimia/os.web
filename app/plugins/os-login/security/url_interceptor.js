@@ -1,11 +1,13 @@
-os.httpCallback.request.push(function(){
+/*os.httpCallback.request.push(function(){
     // check token
-});
-os.module('os.plugins').config(function(){
+});*/
+
+os.module('os.login').config(function(){
     if(window.localStorage.osToken){
         // check if token is valid (token,timeStamp)
-        os.stateProvider.go('os');
+        os.state.go('os');
     }else{
-        os.stateProvider.go('login');
+
+        os.state.go('login');
     }
 });

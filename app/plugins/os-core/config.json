@@ -2,8 +2,7 @@
   "name" : "os-core",
   "type" : "system",
   "version" : "0.1",
-  "routing" :
-  [{
+  "routing" : [{
       "name" : "os",
       "url" : "/",
       "views": {

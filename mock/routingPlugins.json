@@ -1,0 +1,34 @@
+[
+  {
+    "os-login" : {
+      "name" : "login",
+      "url" : "/login",
+      "views": {
+        "core": {
+          "templateUrl": "/views/layouts/index.html",
+          "controller": "login_ctrl"
+        }
+      },
+      "assets" : [
+        "/assets/css/login.css",
+        "/controllers/login.js"
+      ]
+    }
+  },
+  {
+    "os-core" : {
+      "name" : "os",
+      "url" : "/",
+      "views": {
+        "core" : {
+          "templateUrl" : "/views/layouts/core.html"
+        }
+      },
+      "assets" : [
+        "/assets/css/core.css",
+        "/components/mainBar.js"
+      ]
+    }
+  }
+
+]

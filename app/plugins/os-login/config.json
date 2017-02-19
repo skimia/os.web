@@ -1,6 +1,5 @@
 {
   "name" : "os-login",
-  "type" : "system",
   "version" : "0.1",
   "routing" :
   [{
@@ -18,5 +17,17 @@
       ]
   }],
   "assetsBeforeLoad" : ["/security/url_interceptor.js"],
-  "otherwise" : "/login"
+  "otherwise" : "/login",
+  "tils" : "",
+  "InjectInComponents" : {
+    "maibar.shorcut":
+    [{
+      "name" : "misterFreez",
+      "template" : "",
+      "assets" : [
+        "js","css"
+      ]
+    }]
+  },
+  "bdd" : ""
 }

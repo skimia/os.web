@@ -1,27 +1,61 @@
+
 os.core.factory('$plugins',function($http){
     var $plugins = {
-        get : function(link){
-            var promise = $http.get(link).then(function(source){
-                return source.data;
+        getAll : function(){
+        return $http.get('mock/allPlugins.json').then(function(source){
+            return source.data
+        });
+    },
+        getAssetsBeforeLoad : function (){
+            return $http.get('mock/assetsBeforeLoadPlugins.json').then(function(source){
+                return source.data
             });
-            return promise;
         },
-        nb : function(type){
-            var promise = $plugins.get('app/plugins/plugins.json').then(function(data){
-                var nb = 0;
-
-                $.each(data,function(key,value){
-                    if(value.type == type){
-                        nb++;
-                    }
+        getRoutOtherwise : function (){
+            return $http.get('mock/routingOtherwise.json').then(function(source){
+                return source.data
+            });
+        },
+        getRouting : function (){
+            return $http.get('mock/routingPlugins.json').then(function(source){
+                return source.data
+            });
+        },
+        checkRout : function (router){
+            var obj = [];
+            $.each(router,function(currRoutKey,currRout){
+                $.each(currRout,function(routeKey,route){
+                    var setAssets = [];
+                    $.each(route.assets,function(assetsKey,assets){
+                        setAssets.push('app/plugins/'+ routeKey + assets);
+                    });
+                    $.each(route.views,function(viewsKey,views){
+                        views.templateUrl = 'app/plugins/'+ routeKey + views.templateUrl;
+                    });
+                    route.resolve = {
+                        loadMyScript: function($ocLazyLoad) {
+                            return $ocLazyLoad.load(setAssets);
+                        }
+                    };
+                    obj.push(route);
                 });
-                return nb;
             });
-            return promise;
-
+            return obj;
         },
-        load : function(name){
+        loadAssetsDefault : function(assetsBefore){
+            var allAssetsDefault = [];
+            $.each(assetsBefore,function(key,value){
+                $.each(value,function(k,v){
+                    allAssetsDefault.push('app/plugins/' + key + v);
+                });
 
+            });
+            return allAssetsDefault;
+        },
+        addRef : function(refPlugins) {
+            for(ref in refPlugins){
+                os._plugins.push(refPlugins[ref]);
+            }
         }
     };
     return $plugins;
