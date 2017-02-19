@@ -1,6 +1,7 @@
 os.module('os.core.mainbar').directive('mainBar',function() {
     return {
         restrict : "E",
+        replace :true,
         templateUrl : "app/plugins/os-core/views/components/mainBar.html",
         controller: function ($rootScope){
             os.rootScope.$emit('osCoreIsLoaded');

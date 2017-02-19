@@ -1,13 +1,19 @@
 @import 'quiver/quiver';
 @import 'config';
 
-.os{
-  height: 100%;
-}
+
 div[ui-view]{
   height: 100%;
 }
-
+.os{
+  height: 100%;
+}
+.verticaly{
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+}
 body,html{
   height: 100%;
   width: 100%;

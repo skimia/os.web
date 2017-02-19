@@ -1,7 +1,12 @@
 @import 'quiver/quiver';
 @import 'config';
-
+div[ui-view="bodyApp"]{
+  padding-top: 45px;
+  height: calc(100% - 45px);
+  overflow-y: auto;
+}
 .os.core{
+  height: 100%;
   .os.mainBar{
     $length : 45px;
     &.bar{
@@ -9,7 +14,7 @@
       position: fixed;
       width: 100%;
       height: $length;
-      background: pal('grey','d3');
+      background: pal(#607d8b);
       top:0;
       left: 0;
       right: 0;
@@ -78,6 +83,8 @@
             cursor: pointer;
             font-size: 14px;
             position: relative;
+            overflow: hidden;
+            border-radius: 0 0 0 5px;
             i{
               position: absolute;
               height: $length - 10px;
@@ -86,7 +93,9 @@
               left: 20px;
             }
             &:hover{
+              overflow: hidden;
               background: pal('blue','d4');
+              border-radius: 0 0 0 5px;
             }
           }
         }

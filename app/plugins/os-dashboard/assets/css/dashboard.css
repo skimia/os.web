@@ -1,0 +1,154 @@
+.os.dashboard {
+  height: 100%; }
+  .os.dashboard .container {
+    width: 100%;
+    height: 100%;
+    padding: 20px 5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .os.dashboard .owl-carousel {
+    display: inline-block;
+    opacity: 0;
+    vertical-align: middle;
+    width: 99%;
+    -webkit-transition: opacity, 1s;
+    transition: opacity, 1s; }
+    .os.dashboard .owl-carousel.owl-loaded {
+      opacity: 1; }
+  .os.dashboard .owl-prev {
+    height: 6%;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    top: 47%;
+    left: 0; }
+    .os.dashboard .owl-prev i {
+      font-size: 30px;
+      color: lightgrey;
+      font-weight: lighter; }
+    .os.dashboard .owl-prev:hover i {
+      color: black; }
+  .os.dashboard .owl-next {
+    height: 6%;
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    top: 47%;
+    right: 0; }
+    .os.dashboard .owl-next i {
+      font-size: 30px;
+      color: lightgrey;
+      font-weight: lighter; }
+    .os.dashboard .owl-next:hover i {
+      color: black; }
+  .os.dashboard .owl-dots {
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    left: 0;
+    line-height: 45px;
+    text-align: center;
+    width: 100%; }
+    .os.dashboard .owl-dots .owl-dot {
+      height: 8px;
+      width: 8px;
+      border-radius: 8px;
+      display: inline-block;
+      background: lightgrey;
+      margin: 0 5px; }
+      .os.dashboard .owl-dots .owl-dot.active {
+        background: black; }
+  .os.dashboard .dash.list .title {
+    margin-bottom: 5px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-bottom: 1px solid lightgrey; }
+    .os.dashboard .dash.list .title h1 {
+      padding: 10px 0;
+      font-size: 20px; }
+  .os.dashboard .dash.list .tils {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px; }
+    .os.dashboard .dash.list .tils .icon {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      text-align: center; }
+      .os.dashboard .dash.list .tils .icon i {
+        vertical-align: middle; }
+    .os.dashboard .dash.list .tils .name {
+      font-size: 14px; }
+    .os.dashboard .dash.list .tils.large {
+      height: 105px;
+      float: left;
+      padding: 0 5px;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      width: -webkit-calc(100% - 5px);
+      margin: 2.5px 2.5px;
+      padding: 0;
+      background: #2196F3; }
+      .os.dashboard .dash.list .tils.large .icon {
+        padding-top: 10px;
+        height: 70px;
+        line-height: 70px; }
+        .os.dashboard .dash.list .tils.large .icon i {
+          font-size: 60px; }
+      .os.dashboard .dash.list .tils.large .name {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 0 10px;
+        height: 35px;
+        line-height: 35px; }
+    .os.dashboard .dash.list .tils.medium {
+      height: 105px;
+      float: left;
+      padding: 0 5px;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      width: -webkit-calc(50% - 5px);
+      margin: 2.5px 2.5px;
+      padding: 0;
+      background: #ff9800; }
+      .os.dashboard .dash.list .tils.medium .icon {
+        padding-top: 10px;
+        height: 70px;
+        line-height: 70px; }
+        .os.dashboard .dash.list .tils.medium .icon i {
+          font-size: 50px; }
+      .os.dashboard .dash.list .tils.medium .name {
+        line-height: 35px;
+        height: 35px;
+        text-align: center; }
+    .os.dashboard .dash.list .tils.small {
+      background: #00cd03;
+      float: left;
+      padding: 0 5px;
+      -webkit-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      box-sizing: border-box;
+      width: -webkit-calc(50% - 5px);
+      margin: 2.5px 2.5px;
+      height: 50px; }
+      .os.dashboard .dash.list .tils.small .icon {
+        height: 50px;
+        line-height: 50px; }
+        .os.dashboard .dash.list .tils.small .icon i {
+          font-size: 40px; }
+  .os.dashboard .dash.list .container-tils-small {
+    float: left;
+    padding: 0 5px;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 0;
+    height: 105px; }

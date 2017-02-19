@@ -1,0 +1,19 @@
+@mixin media($target){
+  @if (map-has-key($medias, $target)){
+    $query: unquote(map-get($medias, $target));
+
+    @if($query == all){
+      @content;
+    }
+    @else{
+      @media only screen and (unquote(map-get($medias, $target))){
+        @content;
+      }
+    }
+  }
+  @else{
+    @media only screen and (unquote($target)){
+      @content;
+    }
+  }
+}
