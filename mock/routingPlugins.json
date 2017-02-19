@@ -29,6 +29,18 @@
         "/components/mainBar.js"
       ]
     }
+  },
+  {
+    "os-dashboard" : {
+      "name" : "os.dashboard",
+      "url" : "dashboard",
+      "views": {
+        "bodyApp": {
+          "templateUrl" : "/views/layouts/dashboard.html"
+        }
+      },
+      "assets" : []
+    }
   }
 
 ]
