@@ -3,7 +3,7 @@ os.core.factory('$graphQL',function($http){
         send : function(apiLink,query,variables){
             var graphQuery = {
                 query: query,
-                variables : variables
+                variables : JSON.stringify(variables)
             };
             var promise = $http.post(apiLink,graphQuery).then(function(source){
                 return source.data;
