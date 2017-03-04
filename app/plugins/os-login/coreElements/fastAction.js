@@ -8,7 +8,7 @@ os.rootScope.$on('osCoreIsLoaded',function(e){
         },
         name : 'Déconnexion'
     }];
-    os.rootScope.fastAction = '<div class="userName">Bonjour <span>Root</span></div>'+
+    os.rootScope.fastAction = '<div class="userName">Bonjour <span>'+window.localStorage.username+'</span></div>'+
                               '<ul class="fastAction">'+
                                     '<li ng-repeat="item in fastActionList" ng-click="item.action()"><i ng-class="item.icon" aria-hidden="true"></i>{{item.name}}</li>'+
                               '</ul>';

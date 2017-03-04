@@ -19,3 +19,4 @@ os.link.default = 'app' ;
 os.link.core.default = os.link.default + '/core';
 os.link.core.views.default = os.link.core.default + '/views';
 os.link.plugins.default = os.link.default + '/plugins';
+os.link.api = '/api/graph.ql';
